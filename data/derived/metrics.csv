@@ -1,0 +1,51 @@
+Metrics;Usage
+Accuracy;77
+AP;1
+AUC;14
+F1;60
+FNR;5
+FPR;15
+OF1;1
+Precision;46
+Recall;64
+TNR;2
+AS;1
+ASR;38
+EIR;4
+MPR;1
+MRR;1
+Target Accuracy;1
+TSR;2
+AMD;1
+L1;1
+L2;0
+L?;1
+NAMI;1
+Perturbation Fraction;1
+Perturbation Rate;1
+PSM;1
+PSNR;1
+FID;1
+GVS;1
+IS;1
+UI;1
+VAE_mc;1
+VAE_nb;1
+VAE_or;1
+VAR;1
+MIR;1
+Privacy Loss;1
+Privacy Score;1
+RMSE;1
+ICA;1
+MLE;1
+NRRI;1
+CCR;1
+PCR;1
+PDP;1
+Confidence;1
+Detection Latency;1
+FN count;1
+FP count;2
+Loss;1
+RR;1

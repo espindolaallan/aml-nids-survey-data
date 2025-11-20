@@ -1,0 +1,21 @@
+Defense technique;Usage
+No Countermeasure;34
+Adversarial retraining;27
+Ensemble;17
+OOD detector;9
+Robust training;6
+Poisoned data detection;5
+Adversarial purification;5
+Feature squeezing;4
+Poisoned model detection;4
+Decision-boundary regularization;3
+Feature engineering;3
+Post-processing classifier output calibration;2
+Dynamic retraining;2
+Generative/Learning;2
+Label Sanitization;2
+Adversarial detection;2
+Differential Privacy;1
+Self-normalization;1
+Secure MLOps;1
+Input perturbation;1

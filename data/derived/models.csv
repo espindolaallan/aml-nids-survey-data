@@ -1,0 +1,13 @@
+models;Usage
+Feed-forward NN;57
+Tree-based;40
+Linear/Probabilistic;30
+CNN;21
+Sequence/Temporal;15
+Autoencoder;15
+KNN;11
+Ensemble;10
+Generative;6
+Anomaly-detection;3
+Graph-based NN (GNN);2
+Custom IDS-specific NN (informative label only);1
