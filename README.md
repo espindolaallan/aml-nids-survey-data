@@ -13,8 +13,14 @@ Figure 2 encapsulates the five-axis adversary profile that anchors our survey: e
 
 ## Repository Layout
 - `data/raw/taxonomy_mapping.csv` – master table encoding all 94 primary studies. Each row contains bibliographic metadata plus every taxonomy field.
-- `data/derived/*.csv` – corpus-wide aggregations (datasets, models, attack surfaces, phases, positions, knowledge levels, goals, attack/defense techniques, metrics, NIDS granularity, year trends, code/data availability). These were manually curated from `taxonomy_mapping.csv` to highlight key facets in the literature.
-- `figures/*.pdf` – publication-ready charts generated from the derived CSVs. Filenames match their source CSV (e.g., `data/derived/phase.csv` → `figures/phase.pdf`).
+- Key CSVs:
+  - `data/derived/taxonomy_mapping.csv` – master annotated study table.
+  - `data/exports/acronyms_table.csv` – acronym reference.
+  - `data/exports/datasets_table.csv` – datasets list.
+  - `data/exports/model_families_table.csv` – unified model families.
+  - `data/exports/metrics_table_full.csv` – metrics list.
+  - Per facet summaries in `data/derived/` (models, datasets, metrics, surfaces, phases, positions, knowledge, goals, attack/defense techniques, granularity, year, code/data).
+- `figures/*.pdf` – Plots generated from the derived CSVs.
 - `notebooks/SurveyPlots.ipynb` – Jupyter notebook that reads the CSVs and renders every figure from them.
 
 ## Column Dictionary (`taxonomy_mapping.csv`)
@@ -50,4 +56,4 @@ The complete table is available at [`data/raw/taxonomy_mapping.csv`](data/raw/ta
 
 If you leverage these artifacts, please cite the accompanying manuscript:
 
-> A. de S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “Understanding the Adversary: A Quantitative and Taxonomic Survey of Adversarial Machine Learning in Network Intrusion Detection Systems,” under submission (2025).
+> A. de S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “Understanding the Adversary: A Survey of Adversarial Machine Learning in Network Intrusion Detection”, under submission to IEEE Communications Surveys & Tutorials (2025).

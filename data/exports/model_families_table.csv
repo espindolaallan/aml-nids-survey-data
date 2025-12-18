@@ -1,0 +1,14 @@
+unified_family,included_models,notes,usage_count
+Unified Family,Included Models / Examples,Notes,Usage
+Tabular NN,"MLP, DNN, DBN, DeepNet, IDSNet, AlertNet, FS-Net, MaMPF, other fully-connected custom NN",Generic dense / fully-connected networks used for tabular data or IDS-specific custom networks,57
+CNN,"CNN, including 1-D/2-D CNN for traffic features","Dedicated to spatial/feature-map learning, often used for image-like flow representations",21
+Sequence/Temporal,"RNN, LSTM, GRU, C-LSTM (CNN+LSTM), Transformer, Bi-LSTM, sequential encoders",Capture temporal or sequential dependencies in network flows or event logs,15
+Autoencoder,"AE, sparse/denoising variants, Kitsune/KitNet, FS-Net (when AE-like), hybrid AE components",Used for reconstruction-error anomaly detection or feature compression,15
+Generative,"GAN, WGAN, AdvGAN, EVAGAN, diffusion-based generative models","Used for adversarial example generation, data purification, or synthetic traffic creation",6
+Graph-based NN (GNN),"GNN, GraphSAGE, GAT, other graph-structured neural models","Capture relational dependencies between flows, hosts, or features in network graphs",2
+Custom IDS-specific NN,"AlertNet, IDSNet, DeepNet, MaMPF, etc.","Domain-tailored IDS architectures, usually extending fully-connected or AE paradigms",1
+Tree-based,"DT, RF, ExtraTrees, GBDT, XGB, LGBM, AdaBoost, Diff-RF",All supervised tree-based models,40
+Linear/Probabilistic,"Logistic Regression, Naïve Bayes, OneR, Bayesian Network, SVM",Classical linear or probabilistic classifiers,30
+KNN,k-Nearest-Neighbour,"Distance-based supervised method, used as baseline or for hybrid ensembles",11
+Ensemble/Hybrid,"Explicit combination of two or more model families (e.g., RF + XGB + MLP, voting/stacking/bagging)",Used when multiple classifiers are jointly deployed or fused,10
+Anomaly-detection,"IFOR, RRCF (Robust Random Cut Forest), LOF (Local Outlier Factor), OCSVM, SOM",Unsupervised anomaly detection methods for distributional outlier identification,3

@@ -1,0 +1,43 @@
+metric,formula,purpose,usage_count
+Accuracy,TP+TNTP+TN+FP+FN,Overall classification correctness,77
+AP,"_0^1 P(R) \, dR",Captures precision–recall trade-off across thresholds,1
+AUC (ROC-AUC),"_0^1 TPR(FPR) \, d(FPR)",Captures true-positive vs. false-positive trade-off across ROC curves,14
+F1,2 Precision RecallPrecision + Recall,Balances precision and recall in one metric,60
+FNR,FNFN+TP,Proportion of attacks incorrectly classified as benign,5
+FPR,FPFP+TN,Proportion of benign events incorrectly classified as attacks,15
+OF1,_t thresholds F1(t),Best achievable F1 across precision--recall curve,1
+Precision,TPTP+FP,Proportion of predicted attacks that are truly attacks,46
+Recall (TPR/DR),TPTP+FN,Ability to detect actual attacks (detection rate),64
+AS,1 - Recall_advRecall_normal,"Drop in recall due to adversarial attack; Recall_adv = recall under attack, Recall_normal = recall without attack",1
+ASR,Number\ of\ Successful\ AttacksTotal\ Number\ of\ Attacks,Effectiveness of adversarial attacks,38
+EIR,ASR_adv - ASR_baseASR_base,"Relative increase in attack success; ASR_base = model ASR w/o AML defenses, ASR_adv = model ASR under adv condition",4
+MPR,E_f' F[P(f')],"Average predicted malicious probability under adversarial feature mutations; f' F = adversarial feature vectors, P(f') = predicted malicious probability",1
+MRR,TP_test - TP_malTP_test,"Proportion of malicious packets in the clean test set that evade detection under adversarial attack; TP_test = clean true positives, TP_mal = adversarial true positives",1
+Target Accuracy,TP_targetTP_target+FN_target,Per-class accuracy on the attacker’s chosen target class; on adversarial target samples Target Acc = 1 - ASR.,1
+AMD,|EAS - OMS|NEAS,"Average modification degree between original malicious samples and effective adversarial samples; EAS = effective adv samples, OMS = original malicious samples, NEAS = number of effective adv samples",1
+L1 distortion (Manhattan norm),_i |x_i - x'_i|,Perturbation magnitude as Manhattan distance across features,1
+L2 distortion (Euclidean norm),_i (x_i - x'_i)^2,Baseline Euclidean perturbation; foundation for metrics like PR even if not reported standalone,0
+L_ distortion (Max distortion),_i |x_i - x'_i|,Maximum single-feature perturbation applied,1
+NAMI,NDINEAS,"Average number of features modified per effective adversarial sample; NDI = modified features, NEAS = effective adv samples",1
+PF,Perturbed\ FeaturesTotal\ Features 100,Percentage of features perturbed in adversarial examples,1
+PR,x - x' _2n,Average L2-norm perturbation per feature,1
+PSM,| x|N,Average perturbation magnitude across modified features,1
+FID,_r - _g ^2 + Tr( _r+ _g-2( _r _g)^1/2),"Measures distance between real and generated distributions; _r, _r = stats of real samples, _g, _g = stats of generated samples",1
+GVS,1N discriminator\_confidence,GAN realism: average discriminator confidence that generated samples are valid,1
+IS,exp( E_x[ KL(p(y|x) || p(y)) ]),"Evaluates quality and diversity of generated samples; p(y|x) = predicted label distribution, p(y) = marginal class distribution",1
+UI,"Average(PF, VAE_*)","Aggregate realism score combining perturbation and violation rates; PF = perturbation fraction, VAE_* = violation metrics (range, binary, category)",1
+VAE\_mc (Multi-Category Violation),Multi -Category\ ViolationsAdv\ Samples 100,Proportion of adversarial examples with invalid one-hot encodings,1 \\
+VAE\_nb (Non-Binary Violation),Non -Binary\ ViolationsAdv\ Samples 100,Proportion of adversarial examples with invalid binary feature values,1 \\
+VAE\_or (Out-of-Range Violation),Out -of -Range\ ViolationsAdv\ Samples 100,Proportion of adversarial examples with feature values outside valid ranges,1
+MIR,Probability(correct membership inference),Privacy leakage via membership inference,1
+Privacy Loss,(Differential Privacy budget),Theoretical worst-case privacy leakage under Differential Privacy; smaller indicates stronger guarantees,1
+Privacy Score,"sim(x_raw, x_recon)",Similarity between raw and reconstructed features (higher = more leakage),1
+ICA,1 - Acc_advAcc_normal,Drop in accuracy due to adversarial attacks,1
+MLE,E_x X ( _d D N(P_d) ),"Upper bound on the number of local extrema; approximates generalized adversarial robustness; x X = input samples, d D = feature dimensions, N(P_d) = extrema count in projection",1
+NRRI,Acc(x_recon) - Acc(x_adv)100 - Acc(x_adv) 100,Normalized improvement in accuracy after reconstruction,1
+CCR,Clean\ ClustersTotal\ Clusters 100,Percentage of clusters containing only clean data,1
+PCR,Pure\ Poisoned\ ClustersTotal\ Clusters 100,Percentage of clusters containing only poisoned data,1
+Confidence,Model output probability,Prediction certainty for a given sample,1
+Detection Latency,t (event to detection),Speed of IDS response,1
+FN count,FN,Number of attack samples missed by the classifier,1
+FP count,FP,Number of benign samples misclassified as attacks,2

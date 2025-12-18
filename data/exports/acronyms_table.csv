@@ -1,0 +1,90 @@
+acronym,definition
+Acronym,Definition
+AE,Autoencoders
+AMD,Average Modification Degree
+AML,Adversarial Machine Learning
+AP,Average Precision
+APT,Advanced Persistent Threat
+AS,Attack Severity
+ASR,Attack Success Rate
+AUC,Area Under the Receiver Operating Characteristic Curve
+BIM,Basic Iterative Method
+CCR,Clean Cluster Ratio
+CNN,Convolutional Neural Network
+CPS,Cyber-Physical System
+DL,Deep Learning
+DNN,Deep Neural Network
+DR,Detection Rate
+DT,Decision Trees
+EAD,Elastic-Net Attack to Deep Neural Networks
+EIR,Evasion Increase Rate
+FGSM,Fast Gradient Sign Method
+FID,Fréchet Inception Distance
+FNR,False Negative Rate
+FPR,False Positive Rate
+GA,Genetic Algorithm
+GAN,Generative Adversarial Network
+GAT,Graph Attention Network
+GBDT,Gradient Boosting Decision Tree
+GNN,Graph Neural Network
+GRU,Gated Recurrent Unit
+GVS,Generator Validity Score
+HSJA,HopSkipJump Attack
+ICA,Influence on Classification Accuracy
+ICS,Industrial Control System
+IDS,Intrusion Detection System
+IFOR,Isolation Forests
+IS,Inception Score
+JSMA,Jacobian-based Saliency Map Attack
+KNN,k-Nearest Neighbour
+LGBM,Light Gradient Boosting Machine
+LOF,Local Outlier Factor
+LSTM,Long Short-Term Memory
+MIR,Membership Inference Rate
+MITM,Man-in-the-Middle
+ML,Machine Learning
+MLE,Maximum Local Extrema
+MLP,Multilayer Perceptrons
+Acronym,Definition
+MPR,Malicious Probability Rate
+MRR,Malicious Reduction Rate
+MTD,Moving Target Defense
+NAMI,Average Number of Modified Items
+NDSS,Network and Distributed System Security Symposium
+NES,Natural Evolution Strategies
+NIDS,Network Intrusion Detection System
+NLP,Natural Language Processing
+NN,Neural Network
+NRRI,Normalized Reconstruction Robustness Improvement
+OCSVM,One-Class Support Vector Machine
+OF1,Optimal F1
+OOD,Out-of-Distribution
+PCR,Poisoned Cluster Ratio
+PDP,Poisoned Data Purity
+PF,Perturbation Fraction
+PGD,Projected Gradient Descent
+PR,Perturbation Rate
+PRISMA,Preferred Reporting Items for Systematic Reviews and Meta-Analyses
+PSM,Perturbation Size Mean
+PSNR,Peak Signal-to-Noise Ratio
+RAID,"Research in Attacks, Intrusions and Defenses"
+RF,Random Forests
+RMSE,Root Mean Square Error
+RNN,Recurrent Neural Network
+ROC,Receiver Operating Characteristic
+RQ,Research Question
+RR,Reconstruction Robustness
+RRCF,Robust Random Cut Forest
+SDN,Software-Defined Networking
+SOM,Self-Organizing Map
+SPSA,Simultaneous Perturbation Stochastic Approximation
+SVM,Support Vector Machines
+TNN,Tabular Neural Network
+TNR,True Negative Rate
+TPR,True Positive Rate
+TSR,Transfer Success Rate
+UI,Unrealism Index
+VAR,Validity Ratio
+WGAN,Wasserstein Generative Adversarial Network
+XGB,Extreme Gradient Boosting
+ZOO,Zeroth-Order Optimization
