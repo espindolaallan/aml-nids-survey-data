@@ -2,7 +2,7 @@
 
 # AML-NIDS Survey Data Companion
 
-This repository packages the data companion for *“Understanding the Adversary: A Quantitative and Taxonomic Survey of Adversarial Machine Learning in Network Intrusion Detection Systems”*.
+This repository packages the data companion for *“Understanding the Adversary: A Survey of Adversarial Machine Learning in Network Intrusion Detection”*.
 ![Methodology Pipeline](figures/survey_method.png)
 
 Our corpus stems from the PRISMA-based workflow illustrated above: we queried six major digital libraries, deduplicated roughly 8,000 hits down to 4,259 unique records, filtered for venue quality, and manually screened titles, abstracts, and full texts. Progressing through identification, screening, eligibility, and inclusion yielded 94 peer-reviewed primary studies (plus 10 prior surveys) covering AML-for-NIDS research published between 2022 and early 2025.

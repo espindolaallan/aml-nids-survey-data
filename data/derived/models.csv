@@ -1,5 +1,5 @@
 models;Usage
-Feed-forward NN;57
+Tabular NN;57
 Tree-based;40
 Linear/Probabilistic;30
 CNN;21
