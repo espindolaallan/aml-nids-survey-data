@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "AML-NIDS Survey Data Companion"
+message: "If you use this dataset or repository, please cite it."
+doi: 10.21227/mdwb-bw29
+version: "2025"
+authors:
+  - family-names: "Espindola"
+    given-names: "Allan da S."
+  - family-names: "Santin"
+    given-names: "Altair O."
+  - family-names: "Casimiro"
+    given-names: "António"
+  - family-names: "Ferreira"
+    given-names: "Pedro M."
+  - family-names: "Viegas"
+    given-names: "Eduardo K."
+repository-code: "https://github.com/espindolaallan/understanding-aml-nids"
+url: "https://dx.doi.org/10.21227/mdwb-bw29"

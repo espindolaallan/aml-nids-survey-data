@@ -1,4 +1,5 @@
 ![Status: Under Submission](https://img.shields.io/badge/status-under%20submission-orange)
+![DOI](https://img.shields.io/badge/DOI-10.21227%2Fmdwb--bw29-blue)
 
 # AML-NIDS Survey Data Companion
 
@@ -57,3 +58,4 @@ The complete table is available at [`data/raw/taxonomy_mapping.csv`](data/raw/ta
 If you leverage these artifacts, please cite the accompanying manuscript:
 
 > A. de S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “Understanding the Adversary: A Survey of Adversarial Machine Learning in Network Intrusion Detection”, under submission to IEEE Communications Surveys & Tutorials (2025).
+> Artifacts: GitHub \& DataPort DOI \url{https://dx.doi.org/10.21227/mdwb-bw29}
