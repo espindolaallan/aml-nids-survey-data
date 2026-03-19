@@ -14,9 +14,17 @@ Our corpus stems from the PRISMA-based workflow illustrated above: we queried si
 Figure 2 encapsulates the five-axis adversary profile that anchors our survey: each study is characterized by its attack surface, attack phase, adversary position/access within the network, adversary knowledge assumptions, and adversary goal. Embedding these facets inside the ML-NIDS pipeline clarifies how adversarial leverage propagates from data acquisition through feature extraction to alerting, and provides a consistent frame for the quantitative analyses of RQ1–RQ3.
 
 ## Repository Layout
+- `data/protocol/README.md` - guide to the protocol artifacts and screening-status summaries.
 - `data/raw/taxonomy_mapping.csv` – master table encoding all 94 primary studies. Each row contains bibliographic metadata plus every taxonomy field.
+- `data/protocol/` - screening and selection records:
+  - `coding_guide.md`
+  - `exclusion_log.csv`
+  - `secondary_studies.csv`
+  - `journals_venue_review_log.csv`
+  - `conferences_venue_review_log.csv`
+  - `unranked_venue_review_log.csv`
 - Key CSVs:
-  - `data/derived/taxonomy_mapping.csv` – master annotated study table.
+  - `data/raw/taxonomy_mapping.csv` – master annotated primary-study table.
   - `data/exports/acronyms_table.csv` – acronym reference.
   - `data/exports/datasets_table.csv` – datasets list.
   - `data/exports/model_families_table.csv` – unified model families.
@@ -33,17 +41,17 @@ Each column describes one aspect of the AML-for-NIDS literature review:
 - `Model type` – taxonomy of ML-NIDS models evaluated (e.g., Autoencoder, Tree-based, Generative).
 - `NIDS granularity` – packet-based vs flow-based NIDS.
 - `Surface` – attack surface targeted (network-level, feature-level, or data-level).
-- `Phase` – lifecycle stage (training-time, inference-time or continous) where the adversary operates.
+- `Phase` – lifecycle stage (training-time, inference-time, or continuous) where the adversary operates.
 - `Position/Access` – attacker foothold such as external, insider-limited, or insider-privileged.
 - `Knowledge` – black-box/gray-box/white-box assumptions.
-- `Goal` – security objective impacted (integrity-evasion, integrity-poisoning, confidentiality and availability).
+- `Goal` – security objective impacted (integrity-evasion, integrity-poisoning, confidentiality, and combinations of these goals).
 - `Attack technique` – method family (gradient, generative, heuristic, label-flipping, transfer, etc.).
 - `Defense technique` – mitigation strategy (adversarial retraining, ensembles, sanitization, out-of-distribution detection, adversarial purification, etc.).
 - Code/Data availability – indicates whether artifacts were released (Code+Data, Code-only, Data-only, or None).
 - `Evaluation metrics` – metrics reported by the paper (e.g., Accuracy, Recall, ASR, Attack Severity).
 
 ### Snapshot of the Taxonomy Table
-The unified taxonomy operationalizes the threat-model axes into analyzable layers (metadata, threat-model, methodology, and outcomes), bridging conceptual assumptions with empirical practice across all 94 studies.
+The unified taxonomy organizes the literature around a three-level core hierarchy: threat assumptions, method implementation, and outcome evaluation. These core layers are complemented by supporting context facets, such as models, datasets, and reproducibility markers, so conceptual assumptions can be connected to empirical practice across all 94 studies.
 
 | Paper (short) | Year | Datasets | Model Types | Surface | Phase |
 | --- | --- | --- | --- | --- | --- |
@@ -52,11 +60,15 @@ The unified taxonomy operationalizes the threat-model axes into analyzable layer
 | Black-box attack and NIDS using ML for malicious traffic | 2022 | Kitsune-Mirai; CIC-IDS-2017; MAWILab; UNSW-NB15 | Anomaly-detection; Autoencoder; Feed-forward NN; Generative; Linear/Probabilistic; Sequence/Temporal | Network-level | Inference-time |
 
 The complete table is available at [`data/raw/taxonomy_mapping.csv`](data/raw/taxonomy_mapping.csv).
+Field-level coding guidance is documented in [`data/protocol/coding_guide.md`](data/protocol/coding_guide.md).
 
 ## Citation
 
 
-If you leverage these artifacts, please cite the accompanying manuscript:
+If you leverage these artifacts, please cite the data companion:
+
+> A. da S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “AML-NIDS Survey Data Companion”. Data DOI: 10.21227/mdwb-bw29
+
+The accompanying manuscript can be cited separately:
 
 > A. da S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “Understanding the Adversary: A Survey of Adversarial Machine Learning in Network Intrusion Detection”, TechRxiv preprint (2025). DOI: 10.36227/techrxiv.176703966.68193688/v1
-> Artifacts: GitHub \& DataPort DOI \url{https://dx.doi.org/10.21227/mdwb-bw29}

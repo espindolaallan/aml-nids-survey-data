@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "AML-NIDS Survey Data Companion"
-message: "If you use this dataset or repository, please cite it."
-doi: 10.36227/techrxiv.176703966.68193688/v1
+message: "If you use this data companion, please cite the artifacts DOI below. The accompanying manuscript DOI is also listed."
+doi: 10.21227/mdwb-bw29
 version: "2025"
 authors:
   - family-names: "Espindola"
@@ -15,8 +15,8 @@ authors:
   - family-names: "Viegas"
     given-names: "Eduardo K."
 repository-code: "https://github.com/espindolaallan/aml-nids-survey-data"
-url: "https://dx.doi.org/10.36227/techrxiv.176703966.68193688/v1"
+url: "https://dx.doi.org/10.21227/mdwb-bw29"
 identifiers:
   - type: doi
-    value: 10.21227/mdwb-bw29
-    description: "Data/Artifacts DOI"
+    value: 10.36227/techrxiv.176703966.68193688/v1
+    description: "Accompanying manuscript DOI"

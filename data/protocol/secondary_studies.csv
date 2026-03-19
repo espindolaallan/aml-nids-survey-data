@@ -1,0 +1,11 @@
+workbook_record_id,year,title,author_list,venue,source_log,selected_for_detailed_review,retained_for_taxonomy_mapping,final_study_type
+1,2022,adversarial machine learning for network intrusion detection: a comparative study,"['h jmila', 'mi khedher']",computer networks,journals,yes,yes,secondary_study
+1030,2022,adversarial machine learning: a multilayer review of the state-of-the-art and challenges for wireless and mobile systems,j. liu; m. nogueira; j. fernandes; b. kantarci,ieee communications surveys and tutorials,journals,yes,yes,secondary_study
+24,2022,functionality-preserving adversarial machine learning for robust classification in cybersecurity and intrusion detection domains: a survey,"['a mccarthy', 'e ghadafi', 'p andriotis', 'p legg']",journal of cybersecurity and privacy,unranked,yes,yes,secondary_study
+7,2022,modeling realistic adversarial attacks against network intrusion detection systems,"['g apruzzese', 'm andreolini', 'l ferretti']",… threats: research and …,unranked,yes,yes,secondary_study
+1135,2023,adversarial attacks and defenses in machine learning-empowered communication systems and networks: a contemporary survey,y. wang; t. sun; s. li; x. yuan; w. ni; e. hossain; h. vincent poor,ieee communications surveys and tutorials,journals,yes,yes,secondary_study
+0,2023,adversarial machine learning for network intrusion detection systems: a comprehensive survey,"['k he', 'dd kim', 'mr asghar']",ieee communications surveys & tutorials,unranked,yes,yes,secondary_study
+79,2023,review on the feasibility of adversarial evasion attacks and defenses for network intrusion detection systems,"['i debicha', 'b cochez', 't kenaza', 't debatty']",arxiv preprint,conferences,yes,yes,secondary_study
+31,2023,sok: realistic adversarial attacks and defenses for intelligent network intrusion detection,"['j vitorino', 'i praça', 'e maia']",computers and security,journals,yes,yes,secondary_study
+73,2024,adversarial challenges in network intrusion detection systems: research insights and future prospects,"['s ennaji', 'f de gaspari', 'd hitaj', 'a kbidi']",arxiv preprint,conferences,yes,yes,secondary_study
+1046,2024,evasion attack and defense on machine learning models in cyber-physical systems: a survey,s. wang; r. k. l. ko; g. bai; n. dong; t. choi; y. zhang,ieee communications surveys and tutorials,journals,yes,yes,secondary_study
