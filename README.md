@@ -20,6 +20,8 @@ Figure 2 encapsulates the five-axis adversary profile that anchors our survey: e
   - `coding_guide.md`
   - `exclusion_log.csv`
   - `secondary_studies.csv`
+  - `scopus_sensitivity_check_summary.csv`
+  - `scopus_sensitivity_exports/`
   - `journals_venue_review_log.csv`
   - `conferences_venue_review_log.csv`
   - `unranked_venue_review_log.csv`

@@ -3,9 +3,13 @@
 - `coding_guide.md`: column guide for `../raw/taxonomy_mapping.csv`.
 - `exclusion_log.csv`: excluded records with raw quality signals preserved (`h5_index`, `quartile`).
 - `secondary_studies.csv`: the 10 retained secondary studies that informed survey positioning but were excluded from the final primary-study corpus.
+- `scopus_sensitivity_check_summary.csv`: post hoc Scopus sensitivity-check summary used in the rebuttal.
+- `scopus_sensitivity_exports/`: raw Scopus CSV exports backing the sensitivity-check summary.
 - `journals_venue_review_log.csv`: row-level review decisions for journal records.
 - `conferences_venue_review_log.csv`: row-level review decisions for conference records.
 - `unranked_venue_review_log.csv`: row-level review decisions for unranked venues.
+
+For the Scopus sensitivity materials, the reported `result_count` values are derived from the per-year totals in the raw Scopus CSV exports.
 
 The tables below summarize the paper's staged screening process, showing the cumulative status after each stage for journals, conferences, and unranked records.
 

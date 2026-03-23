@@ -1,0 +1,12 @@
+﻿Scopus-10-Analyze-Year
+
+"Your query : (TITLE-ABS-KEY(((""Intrusion Detection"") AND (Learning OR ""Artificial Intelligence"") AND (Adversarial OR Evasion OR ""Attack Models"" OR ""Covert Attack"" OR ""Stealthy Attack""))) AND PUBYEAR > 2021 AND PUBYEAR < 2026 AND PUBYEAR > 2021 AND PUBYEAR < 2026 AND ( LIMIT-TO ( DOCTYPE,""cp"" ) OR LIMIT-TO ( DOCTYPE,""ar"" ) OR LIMIT-TO ( DOCTYPE,""re"" ) OR LIMIT-TO ( DOCTYPE,""sh"" ) ) )"
+
+
+Number of results : 10
+
+"YEAR",
+"2025","885"
+"2024","1049"
+"2023","260"
+"2022","168"
