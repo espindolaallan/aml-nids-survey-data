@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 title: "AML-NIDS Survey Data Companion"
-message: "If you use this data companion, please cite the artifacts DOI below. The accompanying manuscript DOI is also listed."
+message: "If you use this data companion, please cite the artifact DOI below and the accompanying Computer Science Review article listed under preferred-citation."
 doi: 10.21227/mdwb-bw29
-version: "2025"
+version: "2026"
 authors:
   - family-names: "Espindola"
     given-names: "Allan da S."
@@ -18,5 +18,29 @@ repository-code: "https://github.com/espindolaallan/aml-nids-survey-data"
 url: "https://dx.doi.org/10.21227/mdwb-bw29"
 identifiers:
   - type: doi
-    value: 10.36227/techrxiv.176703966.68193688/v1
-    description: "Accompanying manuscript DOI"
+    value: 10.1016/j.cosrev.2026.100995
+    description: "Published accompanying article DOI"
+  - type: url
+    value: "https://www.sciencedirect.com/science/article/pii/S1574013726001036"
+    description: "Published accompanying article URL"
+preferred-citation:
+  type: article
+  title: "Understanding the adversary: A survey of adversarial machine learning in network intrusion detection"
+  authors:
+    - family-names: "Espindola"
+      given-names: "Allan da S."
+    - family-names: "Santin"
+      given-names: "Altair O."
+    - family-names: "Casimiro"
+      given-names: "António"
+    - family-names: "Ferreira"
+      given-names: "Pedro M."
+    - family-names: "Viegas"
+      given-names: "Eduardo K."
+  journal: "Computer Science Review"
+  volume: 62
+  start: 100995
+  year: 2026
+  issn: "1574-0137"
+  doi: "10.1016/j.cosrev.2026.100995"
+  url: "https://www.sciencedirect.com/science/article/pii/S1574013726001036"

@@ -1,10 +1,10 @@
-![Status: Preprint](https://img.shields.io/badge/status-preprint-blue)
-![TechRxiv DOI](https://img.shields.io/badge/DOI-10.36227%2Ftechrxiv.176703966.68193688%2Fv1-blue)
+![Status: Published](https://img.shields.io/badge/status-published-green)
+![Article DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.cosrev.2026.100995-blue)
 ![Data DOI](https://img.shields.io/badge/Data%20DOI-10.21227%2Fmdwb--bw29-blue)
 
 # AML-NIDS Survey Data Companion
 
-This repository packages the data companion for *“Understanding the Adversary: A Survey of Adversarial Machine Learning in Network Intrusion Detection”*.
+This repository packages the data companion for *“Understanding the adversary: A survey of adversarial machine learning in network intrusion detection”*, published in *Computer Science Review*.
 ![Methodology Pipeline](figures/survey_method.png)
 
 Our corpus stems from the PRISMA-based workflow illustrated above: we queried six major digital libraries, deduplicated roughly 8,000 hits down to 4,259 unique records, filtered for venue quality, and manually screened titles, abstracts, and full texts. Progressing through identification, screening, eligibility, and inclusion yielded 94 peer-reviewed primary studies (plus 10 prior surveys) covering AML-for-NIDS research published between 2022 and early 2025.
@@ -71,6 +71,22 @@ If you leverage these artifacts, please cite the data companion:
 
 > A. da S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “AML-NIDS Survey Data Companion”. Data DOI: 10.21227/mdwb-bw29
 
-The accompanying manuscript can be cited separately:
+The accompanying article can be cited separately:
 
-> A. da S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “Understanding the Adversary: A Survey of Adversarial Machine Learning in Network Intrusion Detection”, TechRxiv preprint (2025). DOI: 10.36227/techrxiv.176703966.68193688/v1
+> A. da S. Espindola, A. O. Santin, A. Casimiro, P. M. Ferreira, and E. K. Viegas, “Understanding the adversary: A survey of adversarial machine learning in network intrusion detection”, *Computer Science Review*, vol. 62, article 100995, 2026. DOI: 10.1016/j.cosrev.2026.100995
+
+```bibtex
+@article{ESPINDOLA2026100995,
+  title = {Understanding the adversary: A survey of adversarial machine learning in network intrusion detection},
+  journal = {Computer Science Review},
+  volume = {62},
+  pages = {100995},
+  year = {2026},
+  issn = {1574-0137},
+  doi = {https://doi.org/10.1016/j.cosrev.2026.100995},
+  url = {https://www.sciencedirect.com/science/article/pii/S1574013726001036},
+  author = {Allan da S. Espindola and Altair O. Santin and António Casimiro and Pedro M. Ferreira and Eduardo K. Viegas},
+  keywords = {Adversarial machine learning, Intrusion detection, Network security, Taxonomy, Survey},
+  abstract = {Adversarial machine learning (AML) is a growing threat to network intrusion detection systems (NIDS). However, the literature remains fragmented across models, datasets, and evaluation practices. This survey provides a post-2021 synthesis of AML for machine learning-based NIDS and, to the best of our knowledge, is the first survey in this period to combine a coded corpus of 94 quality-screened primary studies (2022-2025) with a unified hierarchical taxonomy and quantitative mapping across threat models, methods, datasets, metrics, and reproducibility characteristics. Our analysis reveals persistent biases toward feature-space manipulation, dataset-specific dependencies, overly optimistic assumptions about adversary knowledge, and evasion-centric evaluation methodologies. It also identifies emerging trends, including ensemble-based defenses, IoT/ICS data realism, and enhanced reproducibility. Combining conceptual and quantitative perspectives, we establish a reproducible research mapping framework that identifies six open challenges defining the next stage of adversarially robust intrusion detection. Thus, we provide a roadmap toward trustworthy, empirically grounded, and operationally viable AML-NIDS in adversarial settings.}
+}
+```
